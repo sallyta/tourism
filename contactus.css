@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.header{
+	width:100%;
+	height:200px;
+	background-color:dodgerblue;
+	position:relative;
+	z-index:1;
+
+}
+.contact-info{
+	width:50%;
+	height:600px;
+	background-color:#f1f1f1;
+	z-index:2;
+	position:absolute;
+	top:20%;
+	border-radius:40px;
+	transform:translate(50%);
+
+}
+.contact-info h2{
+	padding:60px;
+}
+.contact-info p{
+	padding-left:60px;
+}
